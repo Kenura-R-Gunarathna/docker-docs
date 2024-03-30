@@ -52,6 +52,8 @@ next layers we build on the parent image can be any of source code, dependancies
 
 Every docker image have a tag/version. Its good to mention the tag or else it would allways get the latest version of the image if not mentioned.
 
+Docker file listed out the requred layers which are set of instructions/commands to create those layers in the image.
+
 ```bash
 docker pull <publishor>/<image>:<tag>
 ```
@@ -69,8 +71,6 @@ docker pull php:7.1-apache
 ### Customization / Create our own docker image
 
 To customize docker image we have to use a special file called `Dockerfile`
-
-
 
 ## Contaners
 
